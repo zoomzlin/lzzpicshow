@@ -1,7 +1,7 @@
 ;(function () {
 	
 	var temp = "";		
-	for(var i=1;i<=2;i++){
+	for(var i=1;i<=42;i++){
 		//https://raw.githubusercontent.com/zoomzlin/lzzpicshow/master/images/img_2.jpg
 		temp = temp + "<div class='item'>";
 		temp = temp + "<div class='animate-box'>";
