@@ -1,7 +1,7 @@
 ;(function () {
 	
 	var temp = "";		
-	for(var i=1;i<=42;i++){
+	for(var i=32;i<=42;i++){
 		//https://raw.githubusercontent.com/zoomzlin/lzzpicshow/master/images/img_2.jpg
 		temp = temp + "<div class='item'>";
 		temp = temp + "<div class='animate-box'>";
@@ -9,7 +9,5 @@
 		temp = temp + "<div class='fh5co-desc'>"+i+"</div>";
 		temp = temp + "</div></div>";
 	}
-	console.log(temp);
 	$("#showPic").html(temp);
-	/*document.getElementById('showPic').html(temp);*/
 }());
